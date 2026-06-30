@@ -1,0 +1,44 @@
+// League Spartan font
+@font-face {
+  font-family: 'LeagueSpartan-light';
+  src: local('LeagueSpartan-light'), url('assets/fonts/LeagueSpartan-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-regular';
+  src: local('LeagueSpartan-regular'), url('assets/fonts/LeagueSpartan-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-semiBold';
+  src: local('LeagueSpartan-semiBold'), url('assets/fonts/LeagueSpartan-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeagueSpartan-bold';
+  src: local('LeagueSpartan-bold'), url('assets/fonts/LeagueSpartan-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+// end of League Spartan font
+
+
+:root {
+  --font-light: 'LeagueSpartan-light', sans-serif;
+  --font-regular: 'LeagueSpartan-regular', sans-serif;
+  --font-semiBold: 'LeagueSpartan-semiBold', sans-serif;
+  --font-bold: 'LeagueSpartan-bold', sans-serif;
+  --primary-color: #39a0e6;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

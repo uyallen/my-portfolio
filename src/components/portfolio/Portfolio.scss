@@ -1,0 +1,212 @@
+.header__cover {
+    background: url('../../assets/img/web-development-cover.png') center / cover no-repeat;
+    width: 100%;
+    height: 150px;
+    z-index: 1;
+}
+
+.body__container {
+    display: flex;
+    gap: 3rem;
+
+    .profile__container {
+        .profile__card {
+            text-align: center;
+            padding: 3rem;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            background: #fff;
+            margin-left: 3rem;
+            width: 95%;
+
+            .my__image {
+                width: 180px;
+                height: 190px;
+                border-radius: 50%;
+                border: 4px solid var(--primary-color);
+                z-index: 2;
+                margin-top: -6rem;
+            }
+
+            .profile__name {
+                h1 {
+                    font-family: var(--font-bold);
+                    font-size: 2.3em;
+                }
+        
+                p {
+                    font-family: var(--font-regular);
+                    font-size: 1.15em;
+                    margin-top: -0.5rem;
+                }
+        
+                .profile__links {
+                    display: flex;
+                    justify-content: center;
+                    gap: 0.25rem;
+    
+                    svg {
+                        font-size: 1.45em;
+                        margin-right: 0.4rem;
+                    }
+    
+                    .linkedin__link svg {
+                        color: #0f0f0f;
+    
+                        &:hover {
+                            color: #0072b1;
+                        }
+                    }
+    
+                    .github__link svg {
+                        color: #0f0f0f;
+    
+                        &:hover {
+                            color: #6e5494;
+                        }
+                    }
+    
+                    .gmail__link svg {
+                        color: #0f0f0f;
+    
+                        &:hover {
+                            color: #c71610;
+                        }
+                    }
+                }
+    
+                .copyright__content {
+                    small {
+                        font-family: var(--font-regular);
+                        font-size: 0.9em;
+                    }
+                }
+            }
+        }
+    }
+
+    .my-information__container {
+        padding: 1.5rem;
+        width: 70%;
+        height: 626px;
+        overflow-y: scroll;
+
+        h2 {
+            font-family: var(--font-bold);
+            color: #0f0f0f;
+        }
+        
+        .p-tabview-title {
+            font-family: var(--font-bold);
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-family: var(--font-regular);
+            font-size: 1.1em;
+            color: #0f0f0f;
+            line-height: 1.75rem;
+            text-align: justify;
+        }
+
+        .card__container {
+            .card {
+                padding: 1.5rem;
+                background: #fff;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                text-align: center;
+                border: 2px solid var(--primary-color);
+                border-radius: 8px;
+
+                h3 {
+                    font-family: var(--font-bold);
+                    color: #0f0f0f;
+                    font-size: 1.3em;
+                }
+
+                .card__img {
+                    width: 50%;
+                }
+
+                &:hover {
+                    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+                }
+            }
+        }
+
+        .logos__container {
+            .tech__logos {
+                width: 65px;
+            }
+        }
+    }
+
+    .certificates__container {
+        .certificate {
+            text-align: center;
+
+            h3 {
+                font-family: var(--font-bold);
+                color: #0f0f0f;
+                font-size: 1.15em;
+                line-height: 1.5rem;
+            }
+
+            .cert__img {
+                width: 100%;
+                height: 220px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                &:hover {
+                    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+                }
+            }
+
+            small {
+                font-family: var(--font-regular);
+                font-size: 0.95em;
+            }
+
+            span {
+                font-family: var(--font-semiBold);
+            }
+        }
+    }
+
+    .projects__container {
+        .project {
+            text-align: center;
+
+            h3 {
+                font-family: var(--font-bold);
+                color: #0f0f0f;
+                font-size: 1.15em;
+                line-height: 1.5rem;
+            }
+
+            .proj__img {
+                width: 100%;
+                height: 250px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+        }
+    }
+
+    .creations__container {
+        .creation {
+            text-align: center;
+
+            h3 {
+                font-family: var(--font-bold);
+                color: #0f0f0f;
+                font-size: 1.15em;
+                line-height: 1.5rem;
+            }
+
+            .proj__img {
+                width: 100%;
+                height: 250px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+        }
+    }
+}
