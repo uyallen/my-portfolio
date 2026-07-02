@@ -44,7 +44,7 @@ function Portfolio() {
         { img: '/img/projects/hello-demo.png', title: 'Hello Demo', link: 'web.hello-demo.com'},
         { img: '/img/projects/elwise.png', title: 'EL Wise Web App', link: 'https://adminelwise.com/#/home' },
         { img: '/img/projects/aces-of-safety.png', title: 'Aces of Safety', link: 'https://acesofsafety.adminelwise.com/#/' },
-        { img: '', title: 'PTE Website', link: ''}
+        { img: '/img/projects/pteccl.png', title: 'PTE and CCL Training Center', link: 'https://pteandcclcenter.com/'}
     ];
 
 
