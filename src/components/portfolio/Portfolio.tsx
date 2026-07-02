@@ -18,32 +18,32 @@ function Portfolio() {
     const year = date.getFullYear();
 
     const logos = [
-        { img: '../src/assets/img/logos/html.png' }, { img: '../src/assets/img/logos/css3.svg' }, { img: '../src/assets/img/logos/sass.png' },
-        { img: '../src/assets/img/logos/javascript.png' }, { img: '../src/assets/img/logos/typescript.png' }, { img: '../src/assets/img/logos/bootstrap.png' },
-        { img: '../src/assets/img/logos/angular.png' }, { img: '../src/assets/img/logos/ionic.png' }, { img: '../src/assets/img/logos/php.png' },
-        { img: '../src/assets/img/logos/laravel.png' }, { img: '../src/assets/img/logos/coldfusion.png' }, { img: '../src/assets/img/logos/mysql.png' }
+        { img: '/img/logos/html.png' }, { img: '/img/logos/css3.svg' }, { img: '/img/logos/sass.png' },
+        { img: '/img/logos/javascript.png' }, { img: '/img/logos/typescript.png' }, { img: '/img/logos/bootstrap.png' },
+        { img: '/img/logos/angular.png' }, { img: '/img/logos/ionic.png' }, { img: '/img/logos/php.png' },
+        { img: '/img/logos/laravel.png' }, { img: '/img/logos/coldfusion.png' }, { img: '/img/logos/mysql.png' }
     ]
 
     const whatIDo = [
-        { img: '../src/assets/img/web-development.png', title: 'Web Development', desc: 'I develop web applications using HTML, CSS, JavaScript, Bootstrap, Angular, and Ionic for the client side. PHP, Laravel, and Adobe ColdFusion for server side.' },
-        { img: '../src/assets/img/graphic-design.png', title: 'Graphic Design', desc: 'I have some UI designs for web applications using Figma, and materials for school-related purposes using Adobe Photoshop and Adobe Illustrator.' },
-        { img: '../src/assets/img/video-editing.png', title: 'Basic Video Editing', desc: 'I have a knowledge on basic video editing, including trimming, cutting, transitions, and adding video and text effects using Adobe Premiere Pro.' }
+        { img: '/img/web-development.png', title: 'Web Development', desc: 'I develop web applications using HTML, CSS, JavaScript, Bootstrap, Angular, and Ionic for the client side. PHP, Laravel, and Adobe ColdFusion for server side.' },
+        { img: '/img/graphic-design.png', title: 'Graphic Design', desc: 'I have some UI designs for web applications using Figma, and materials for school-related purposes using Adobe Photoshop and Adobe Illustrator.' },
+        { img: '/img/video-editing.png', title: 'Basic Video Editing', desc: 'I have a knowledge on basic video editing, including trimming, cutting, transitions, and adding video and text effects using Adobe Premiere Pro.' }
     ];
 
     const certificates = [
-        { img: '../src/assets/img/certificates/upskill-it.png', title: 'Ethical Hacking Part 4', institution: 'Upskill I.T Workshop', date: 'April 02, 2022' },
-        { img: '../src/assets/img/certificates/computer-vision.png', title: 'An Introduction to Computer Vision through Mediapipe Python Solutions', institution: 'Mindanao State University - General Santos City College of Engineering', date: 'April 02, 2022' },
-        { img: '../src/assets/img/certificates/aws.png', title: 'Community Ignite Episode #34: Re-ignite: AWS Cloud Foundations', institution: 'Edukasyon.ph, AWS, AWS Siklab Pilipinas', date: 'March 31, 2022' },
-        { img: '../src/assets/img/certificates/raite2021.png', title: 'Regional Assembly on Information Technology Education (RAITE) 2021', institution: 'Philippine Society of Information Technology Educators (PSITE) Region III', date: 'November 12, 2021' },
-        { img: '../src/assets/img/certificates/stackleague.png', title: 'Product PH x StackLeague Tech Session', institution: 'StackLeague', date: 'October 8, 2021' },
-        { img: '../src/assets/img/certificates/y4it.png', title: '17th Youth Congress on Information Technology (Y4iT 2019 Day 3)', institution: 'UP System Information Technology Foundation (UP SITF)', date: 'September 27, 2019' }
+        { img: '/img/certificates/upskill-it.png', title: 'Ethical Hacking Part 4', institution: 'Upskill I.T Workshop', date: 'April 02, 2022' },
+        { img: '/img/certificates/computer-vision.png', title: 'An Introduction to Computer Vision through Mediapipe Python Solutions', institution: 'Mindanao State University - General Santos City College of Engineering', date: 'April 02, 2022' },
+        { img: '/img/certificates/aws.png', title: 'Community Ignite Episode #34: Re-ignite: AWS Cloud Foundations', institution: 'Edukasyon.ph, AWS, AWS Siklab Pilipinas', date: 'March 31, 2022' },
+        { img: '/img/certificates/raite2021.png', title: 'Regional Assembly on Information Technology Education (RAITE) 2021', institution: 'Philippine Society of Information Technology Educators (PSITE) Region III', date: 'November 12, 2021' },
+        { img: '/img/certificates/stackleague.png', title: 'Product PH x StackLeague Tech Session', institution: 'StackLeague', date: 'October 8, 2021' },
+        { img: '/img/certificates/y4it.png', title: '17th Youth Congress on Information Technology (Y4iT 2019 Day 3)', institution: 'UP System Information Technology Foundation (UP SITF)', date: 'September 27, 2019' }
     ];
 
     const projects = [
-        { img: '../src/assets/img/projects/hdclick.png', title: 'HD Click', link: 'hd.click'},
-        { img: '../src/assets/img/projects/hello-demo.png', title: 'Hello Demo', link: 'web.hello-demo.com'},
-        { img: '../src/assets/img/projects/elwise.png', title: 'EL Wise Web App', link: 'https://adminelwise.com/#/home' },
-        { img: '../src/assets/img/projects/aces-of-safety.png', title: 'Aces of Safety', link: 'https://acesofsafety.adminelwise.com/#/' },
+        { img: '/img/projects/hdclick.png', title: 'HD Click', link: 'hd.click'},
+        { img: '/img/projects/hello-demo.png', title: 'Hello Demo', link: 'web.hello-demo.com'},
+        { img: '/img/projects/elwise.png', title: 'EL Wise Web App', link: 'https://adminelwise.com/#/home' },
+        { img: '/img/projects/aces-of-safety.png', title: 'Aces of Safety', link: 'https://acesofsafety.adminelwise.com/#/' },
         { img: '', title: 'PTE Website', link: ''}
     ];
 
@@ -57,7 +57,7 @@ function Portfolio() {
         <div className="body__container">
             <div className="profile__container">
                 <div className="profile__card">
-                    <img draggable="false" className="my__image" src="../src/assets/img/allen-uy.jpg" alt="" loading="lazy" />
+                    <img draggable="false" className="my__image" src="/img/allen-uy.jpg" alt="" loading="lazy" />
 
                     <div className="profile__name">
                         <h1>Allen Eduard Uy</h1>
