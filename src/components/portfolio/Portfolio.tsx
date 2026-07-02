@@ -25,8 +25,8 @@ function Portfolio() {
     ]
 
     const whatIDo = [
-        { img: '../src/assets/img/web-development.png', title: 'Web Development', desc: 'I develop web applications using HTML, CSS, JavaScript, Bootstrap, Angular, and Ionic for the client side, PHP, Laravel, Node.js, and Adobe ColdFusion for server side.' },
-        { img: '../src/assets/img/graphic-design.png', title: 'Graphic Design', desc: 'I have created some UI designs for web applications using Figma, and some materials for school-related purposes using Adobe Photoshop and Adobe Illustrator.' },
+        { img: '../src/assets/img/web-development.png', title: 'Web Development', desc: 'I develop web applications using HTML, CSS, JavaScript, Bootstrap, Angular, and Ionic for the client side. PHP, Laravel, and Adobe ColdFusion for server side.' },
+        { img: '../src/assets/img/graphic-design.png', title: 'Graphic Design', desc: 'I have some UI designs for web applications using Figma, and materials for school-related purposes using Adobe Photoshop and Adobe Illustrator.' },
         { img: '../src/assets/img/video-editing.png', title: 'Basic Video Editing', desc: 'I have a knowledge on basic video editing, including trimming, cutting, transitions, and adding video and text effects using Adobe Premiere Pro.' }
     ];
 
@@ -40,8 +40,11 @@ function Portfolio() {
     ];
 
     const projects = [
-        { img: '../src/assets/img//projects/aces-of-safety.png', title: 'Aces of Safety', link: 'https://acesofsafety.adminelwise.com/#/' },
-        { img: '../src/assets/img/projects/elwise.png', title: 'EL Wise Web App', link: 'https://adminelwise.com/#/home' }
+        { img: '../src/assets/img/projects/hdclick.png', title: 'HD Click', link: 'hd.click'},
+        { img: '../src/assets/img/projects/hello-demo.png', title: 'Hello Demo', link: 'web.hello-demo.com'},
+        { img: '../src/assets/img/projects/elwise.png', title: 'EL Wise Web App', link: 'https://adminelwise.com/#/home' },
+        { img: '../src/assets/img/projects/aces-of-safety.png', title: 'Aces of Safety', link: 'https://acesofsafety.adminelwise.com/#/' },
+        { img: '', title: 'PTE Website', link: ''}
     ];
 
 
@@ -86,7 +89,7 @@ function Portfolio() {
                     <TabPanel header="About Me" leftIcon="pi pi-user mr-3 mb-1">
                         <h2>&#129300; WHO AM I?</h2>
                         <p className="m-0">
-                            An IT professional with almost 2 years of experience in frontend and web development specialized in building modern,
+                            A professional with 3 years of experience in frontend and web development specialized in building modern,
                             responsive, and user-friendly web applications. My goal is to build intuitive and scalable web applications that
                             enhance user experiences. I always think of something unique and translate it into a web application in order to
                             provide ease to people's lives.
@@ -110,7 +113,6 @@ function Portfolio() {
 
 
                         <h2 className="mt-6">&#128187; TECHNOLOGY STACK</h2>
-                        <h4>DEVELOPMENT SKILLS</h4>
                         <div className="logos__container">
                             <div className="grid justify-content-center align-items-center">
                                 { logos.map((item, index) => (
@@ -120,8 +122,6 @@ function Portfolio() {
                                 ))}
                             </div>
                         </div>
-                        
-                        <h4>KNOWLEDGES</h4>
                     </TabPanel>
 
                     <TabPanel header="Certificates" leftIcon="pi pi-briefcase mr-3 mb-1">
@@ -140,11 +140,11 @@ function Portfolio() {
                         </div>
                     </TabPanel>
 
-                    <TabPanel header="Projects" leftIcon="pi pi-list mt- mr-3 mb-1">
+                    <TabPanel header="Projects" leftIcon="pi pi-code mr-3 mb-1">
                         <div className="projects__container">
                             <div className="grid">
                                 { projects.map((item, index) => (
-                                    <div className="col-6 mb-4" key={index}>
+                                    <div className="col-6 mb-5" key={index}>
                                         <div className="project">
                                             <img draggable="false" src={ item.img } className="proj__img" alt="" loading="lazy" />
                                             <h3>{ item.title }</h3>
