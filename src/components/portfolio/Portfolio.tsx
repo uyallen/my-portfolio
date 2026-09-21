@@ -61,7 +61,7 @@ function Portfolio() {
 
                     <div className="profile__name">
                         <h1>Allen Eduard Uy</h1>
-                        <p>Frontend Developer | Web Developer</p>
+                        <p>Web Developer | Frontend Developer</p>
                         
                         <div className="profile__links">
                             <div className="linkedin__link">
@@ -89,10 +89,11 @@ function Portfolio() {
                     <TabPanel header="About Me" leftIcon="pi pi-user mr-3 mb-1">
                         <h2>&#129300; WHO AM I?</h2>
                         <p className="m-0">
-                            A professional with 3 years of experience in frontend and web development specialized in building modern,
-                            responsive, and user-friendly web applications. My goal is to build intuitive and scalable web applications that
-                            enhance user experiences. I always think of something unique and translate it into a web application in order to
-                            provide ease to people's lives.
+                            A web developer with 4 years of hands-on experience in building, enhancing, testing, and maintaining web applications across professional
+                            and freelance projects. Hands-on expertise in HTML5, CSS3, Bootstrap, JavaScript, PHP, and Adobe Coldfusion. Specialize in developing clean,
+                            responsive user interfaces, and optimizing backend database interactions, with working knowledge of modern frameworks like React and Angular.
+                            Combines software development, debugging, and UI/UX experience to deliver reliable, functional web solutions and translate technical requirements
+                            into effective applications.
                         </p>
 
 
